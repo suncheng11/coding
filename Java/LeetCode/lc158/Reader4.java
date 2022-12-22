@@ -1,4 +1,4 @@
-package leetCode158;
+package lc158;
 
 public class Reader4 {
     public int read4(char[] buf){

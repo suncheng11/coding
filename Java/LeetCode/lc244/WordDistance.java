@@ -1,4 +1,4 @@
-package leetCode244;
+package lc244;
 
 class WordDistance {
     String[] data;

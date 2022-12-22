@@ -1,4 +1,4 @@
-package leetCode157;
+package lc157;
 
 /**
  * The read4 API is defined in the parent class Reader4.

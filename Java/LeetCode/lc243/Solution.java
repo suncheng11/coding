@@ -1,4 +1,4 @@
-package leetCode243;
+package lc243;
 
 import java.util.HashSet;
 

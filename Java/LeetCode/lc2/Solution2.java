@@ -1,4 +1,4 @@
-package leetCode2;
+package lc2;
 
 
 import util.ListNode;

@@ -1,4 +1,4 @@
-package leetCode159;
+package lc159;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package leetCode266;
+package lc266;
 
 import java.util.Arrays;
 

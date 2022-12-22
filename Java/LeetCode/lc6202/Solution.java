@@ -1,4 +1,4 @@
-package leetCode6202;
+package lc6202;
 
 public class Solution {
     public String robotWithString(String s) {

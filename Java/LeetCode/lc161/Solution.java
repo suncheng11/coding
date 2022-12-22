@@ -1,4 +1,4 @@
-package leetCode161;
+package lc161;
 
 class Solution {
     public boolean isOneEditDistance(String s, String t) {

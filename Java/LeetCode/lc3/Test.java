@@ -1,4 +1,4 @@
-package leetCode3;
+package lc3;
 
 import java.util.ArrayList;
 import java.util.HashMap;
