@@ -1,4 +1,4 @@
-package package0.solution05;
+package lc5;
 
 public class Solution1 {
     /**
