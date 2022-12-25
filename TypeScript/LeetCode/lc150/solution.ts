@@ -1,10 +1,11 @@
 function evalRPN(tokens: string[]): number {
-    let op = tokens.pop();
-    if(!isOp(op)){
-        return parseInt(op);
+    if(!isOp(tokens[tokens.length-1])){
+        return parseInt(tokens.pop()); 
     }
-    let right:number = isOp(tokens[tokens.length-1])?evalRPN(tokens):parseInt(tokens.pop());
-    let left:number = isOp(tokens[tokens.length-1])?evalRPN(tokens):parseInt(tokens.pop());
+
+    let op = tokens.pop();
+    let right:number = evalRPN(tokens);
+    let left:number = evalRPN(tokens);
 
     return calculate(right,left,op);
 };
