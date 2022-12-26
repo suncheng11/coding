@@ -1,4 +1,4 @@
-package package0.solution11;
+package lc11;
 
 /**
  * 双指针：指针起点的多样性

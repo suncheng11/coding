@@ -1,4 +1,4 @@
-package package0.solution23;
+package lc23;
 
 import util.ListNode;
 

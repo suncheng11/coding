@@ -1,4 +1,4 @@
-package package1.solution121.solution128;
+package lc128;
 
 import java.util.HashSet;
 import java.util.Set;

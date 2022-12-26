@@ -1,4 +1,4 @@
-package eleven.solution1143;
+package lc1143;
 
 import java.util.Arrays;
 

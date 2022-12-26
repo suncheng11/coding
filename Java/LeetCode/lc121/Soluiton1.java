@@ -1,4 +1,4 @@
-package package1.solution121;
+package lc121;
 
 import java.util.Arrays;
 

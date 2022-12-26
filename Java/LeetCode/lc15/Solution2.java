@@ -1,4 +1,4 @@
-package package0.solution15;
+package lc15;
 
 import java.util.*;
 

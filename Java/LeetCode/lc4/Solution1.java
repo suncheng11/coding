@@ -1,4 +1,4 @@
-package package0.solution04;
+package lc4;
 
 /**
  * @Classname Solution4

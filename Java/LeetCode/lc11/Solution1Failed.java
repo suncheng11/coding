@@ -1,4 +1,4 @@
-package package0.solution11;
+package lc11;
 
 /**
  * 尝试分治算法：fail
