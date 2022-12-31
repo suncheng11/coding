@@ -51,4 +51,30 @@ public class Solution1 {
     }
 
 
+
+    private List<List<Integer>> getTwoSumList(int[] sortedNums, int start, int sum){
+        List<List<Integer>> ret = new ArrayList<>();
+        int left = start, right = sortedNums.length-1;
+        while(left<right){
+            int curSum = sortedNums[left] + sortedNums[right];
+            if(curSum == sum){
+                List<Integer> tmp = new ArrayList<>();
+                tmp.add(sortedNums[left]);
+                tmp.add(sortedNums[right]);
+                ret.add(tmp);
+                while(left < right && sortedNums[left+1] == sortedNums[left]){
+                    left++;
+                }
+                left++;
+                while(right > left && sortedNums[right-1] == sortedNums[right]){
+                    right--;
+                }
+            }else if(curSum < sum){
+                left++;
+            }else{
+                right--;
+            }
+        }
+        return ret;
+    }
 }
