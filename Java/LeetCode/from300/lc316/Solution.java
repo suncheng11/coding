@@ -1,4 +1,4 @@
-package lc316;
+package from300.lc316;
 
 class Solution {
     public String removeDuplicateLetters(String s) {

@@ -1,6 +1,7 @@
 package from1200.lc1245;
 /**
  * 第一次知道思路之后的解法，一开始用的数组存储的节点关系，但是最后超过内存限制了，改成了map+set存储，AC了但是比较慢
+ * 之后看到节点是递增的，然后换成了List<Set<Integer>来存储节点关系，快了一点
  */
 public class Solution {
     public static int treeDiameter(int[][] edges) {

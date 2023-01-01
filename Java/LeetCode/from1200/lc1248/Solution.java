@@ -1,4 +1,4 @@
-package lc1248;
+package from1200.lc1248;
 
 public class Solution {
     public int numberOfSubarrays(int[] input, int k) {
