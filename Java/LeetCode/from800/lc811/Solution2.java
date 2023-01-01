@@ -1,4 +1,4 @@
-package lc811;
+package from800.lc811;
 
 public class Solution2 {
     public List<String> subdomainVisits(String[] cpdomains) {

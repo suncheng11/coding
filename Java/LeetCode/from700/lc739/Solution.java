@@ -1,4 +1,4 @@
-package lc739;
+package from700.lc739;
 
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {

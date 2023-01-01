@@ -1,4 +1,4 @@
-package lc697;
+package from600.lc697;
 
 public class Solution {
     public int findShortestSubArray(int[] nums) {

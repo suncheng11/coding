@@ -1,4 +1,4 @@
-package lc874;
+package from800.lc874;
 
 public class Solution {
     public int robotSim(int[] commands, int[][] obstacles) {

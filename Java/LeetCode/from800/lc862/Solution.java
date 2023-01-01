@@ -1,4 +1,4 @@
-package lc862;
+package from800.lc862;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
