@@ -1,4 +1,5 @@
-package package0;
+package lc8;
+
 
 /**
  * @Classname Solution8

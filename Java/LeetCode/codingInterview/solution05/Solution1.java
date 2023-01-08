@@ -1,4 +1,4 @@
-package packageoffer.solution05;
+package codingInterview.solution05;
 
 import java.util.Objects;
 

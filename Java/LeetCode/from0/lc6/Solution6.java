@@ -1,4 +1,5 @@
-package package0;
+package lc6;
+
 
 import java.util.ArrayList;
 

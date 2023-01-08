@@ -1,4 +1,4 @@
-package lc6202;
+package from6200.lc6202;
 
 public class Solution {
     public String robotWithString(String s) {

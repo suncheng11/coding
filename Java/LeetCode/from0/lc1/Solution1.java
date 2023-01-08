@@ -1,4 +1,5 @@
-package package0;
+package lc1;
+
 
 import java.util.HashMap;
 import java.util.Map;

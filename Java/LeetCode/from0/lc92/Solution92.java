@@ -1,4 +1,5 @@
-package package0;
+package lc92;
+
 
 import util.LinkedListUtil;
 import util.ListNode;

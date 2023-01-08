@@ -1,4 +1,4 @@
-package lc2500;
+package from2500.lc2500;
 
 class Solution {
     public int deleteGreatestValue(int[][] grid) {

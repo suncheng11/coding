@@ -1,4 +1,5 @@
-package package0;
+package lc86;
+
 
 import util.ListNode;
 

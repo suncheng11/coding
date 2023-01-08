@@ -1,4 +1,5 @@
-package package0;
+package lc61;
+
 
 import util.ListNode;
 

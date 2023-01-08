@@ -1,4 +1,4 @@
-package packageoffer.solution03;
+package codingInterview.solution03;
 
 /**
  * 在一个长度为 n 的数组 nums 里的所有数字都在 0～n-1 的范围内。

@@ -1,4 +1,4 @@
-package packageoffer.solution24;
+package codingInterview.solution24;
 
 public class ListNode {
     int val;

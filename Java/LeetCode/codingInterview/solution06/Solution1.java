@@ -1,4 +1,4 @@
-package packageoffer.solution06;
+package codingInterview.solution06;
 
 import java.util.ArrayList;
 import java.util.List;

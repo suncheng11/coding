@@ -1,4 +1,4 @@
-package packageoffer.solution24;
+package codingInterview.solution24;
 
 /**
  * 翻转链表
