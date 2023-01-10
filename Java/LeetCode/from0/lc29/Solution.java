@@ -2,28 +2,37 @@ package lc29;
 
 public class Solution {
     public int divide(int dividend, int divisor) {
-        boolean fu = (((dividend >>> 31) ^ (divisor >>> 31)) == 1);
-        if(dividend > 0) dividend = -dividend;
-        if(divisor > 0) divisor = -divisor;
-        int mod = divisor;
-        int minn = dividend >> 1;
-        int now = -1;
-        while(mod >= minn && mod >= (Integer.MIN_VALUE >> 1)) {
-            mod <<= 1;
-            now <<= 1;
+        //注意无符号右移
+        boolean neg = ((dividend >>> 31) ^ (divisor>>>31)) == 1;
+
+        if(dividend > 0){
+            dividend = -dividend;
         }
-        int ans = 0;
+        if(divisor > 0){
+            divisor = - divisor;
+        }
+
+        int cnt = 0;
+        int tmp = 1;
+        int origin = divisor;
         while(dividend <= divisor){
-            while(mod < dividend){
-                mod >>= 1;
-                now >>= 1;
+            // System.out.println("dividend:"+dividend+" divisor:"+divisor);
+            // System.out.println(divisor );
+            // System.out.println((dividend>>1));
+            while(divisor > (dividend>>1)){
+                divisor += divisor;
+                tmp += tmp;
             }
-            while(dividend <= mod) {
-                dividend -= mod;
-                ans-=now;
-            }
+
+            dividend-=divisor;
+            cnt -= tmp;
+            tmp = 1;
+            divisor = origin;
         }
-        if(ans == -2147483648 && !fu) return 2147483647;
-        return fu?-ans:ans;
+
+        if(!neg && cnt == Integer.MIN_VALUE){
+            return Integer.MAX_VALUE;
+        }
+        return neg?cnt:-cnt;
     }
-}
+} 
